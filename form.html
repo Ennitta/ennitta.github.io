@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="index.html"><img src="img/logo-pink-white-mobile.svg" class="page-header__logo" alt=""></a>
+      <span class="page-header__close">Закрыть</span>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="index.html">Главная</a></li>
+          <li class="main-nav__item"><a href="photo.html">Фотографии</a></li>
+          <li class="main-nav__item"><a href="#">Конкурс</a></li>
+          <li class="main-nav__item"><a>Html Academy</a></li>
+        </ul>
+      </nav>
+      <a href="index.html"><img src="img/logo-pink-white-mobile.svg" class="page-header__logo" alt=""></a>
+      <span class="page-header__open">Открыть меню</span>
+    </header>
+    <main class="content">
+      <img src="#" alt="">
+      <p>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+      <form class="form" action="/echo" method="post">
+        <div class="form__login">
+          <div class="form__login-surname">
+            <label for="surname">Фамилия:</label>
+            <input type="text" name="surname" id="surname" placeholder="Укажите фамилию">
+          </div>
+          <div class="form__login-name">
+            <label for="name">Имя:</label>
+            <input type="text" name="name" id="name" placeholder="Введите ваше имя">
+          </div>
+          <div class="form__login-middlename">
+            <label for="middle-name">Отчество:</label>
+            <input type="text" name="middle-name" id="middle-name" placeholder="Ну и отчество тоже">
+          </div>
+        </div>
+        <div class="form__achievements">
+          <div class="form__title">Ваши безбашенные достижения в путешествии:</div>
+          <ul class="form__achievements-list">
+            <li>
+              <input type="checkbox" id="chb-1" checked>
+              <label for="chb-1">Сделал селфи с акулой</label>
+            </li>
+            <li>
+              <input type="checkbox" id="chb-2" checked>
+              <label for="chb-2">Обгорел на пляже</label>
+            </li>
+            <li>
+              <input type="checkbox" id="chb-3">
+              <label for="chb-3">Видел Чака Норриса</label>
+            </li>
+            <li>
+              <input type="checkbox" id="chb-4">
+              <label for="chb-4">Накупил сувениров</label>
+            </li>
+            <li>
+              <input type="checkbox" id="chb-5" checked>
+              <label for="chb-5">Удержал башню</label>
+            </li>
+            <li>
+              <input type="checkbox" id="chb-6">
+              <label for="chb-6">Разгромил отель</label>
+            </li>
+          </ul>
+        </div>
+        <div class="form__contacts">
+          <div class="form__contacts-tel">
+            <label for="tel">Номерок телефончика</label>
+            <input type="tel" name="tel" id="tel" placeholder="Номер, пожалуйста">
+          </div>
+          <div class="form__contacts-mail">
+            <label for="email">Адресок почты</label>
+            <input type="email" name="email" id="email" placeholder="E-mail, пожалуйста">
+          </div>
+        </div>
+        <div class="form__journey">
+          <div class="form__title">С каким приложением путешествовали?</div>
+          <ul class="form__journey-list">
+            <li>
+              <input type="radio" name="journey" id="rb-1" checked>
+              <label for="rb-1">Pink для iOS</label>
+            </li>
+            <li>
+              <input type="radio" name="journey" id="rb-2">
+              <label for="rb-2">Pink на Android</label>
+            </li>
+            <li>
+              <input type="radio" name="journey" id="rb-3">
+              <label for="rb-3">Windows Phone</label>
+            </li>
+          </ul>
+        </div>
+        <div class="form__emotions">
+          <div class="form__title">Опишите свои эмоции</div>
+          <label for="textarea"></label>
+          <textarea name="textarea" id="textarea" placeholder="Можно прям в красках, не стесняясь в выражениях" cols="28" rows="5"></textarea>
+        </div>
+        <button type="submit">Отправить форму</button>
+        <div class="form__besure">* — обязательные поля</div>
+      </form>
+    </main>
+    <footer class="page-footer">
+      <a href="#" class="page-footer__logo">Pink</a>
+      <div class="social-links">
+        <a href="#" class="social-links__common social-links__common--tw"></a>
+        <a href="#" class="social-links__common social-links__common--fb"></a>
+        <a href="#" class="social-links__common social-links__common--yut"></a>
+      </div>
+      <div class="page-footer__copyright">Разработано</div>
+    </footer>
+  </body>
+</html>
